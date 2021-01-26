@@ -1,0 +1,45 @@
+#SearchDrawer {
+  z-index:1001;
+}
+
+#shopify-section-header {
+  position: fixed;
+  z-index:1000;
+  left:0;
+  right:0;
+  -webkit-box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  -moz-box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  -ms-box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  -o-box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  background-color: {{ settings.color_body_bg }};
+}
+
+
+.template-product #PageContainer {
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 749px) {
+#PageContainer {
+  padding-top: 21px;
+}}
+  
+.template-index {
+  font: normal normal bold 15px/20px Tsukushi A Round Gothic;
+}
+  
+.image-text::before {
+  content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent linear-gradient(180deg, #EAEAEA00 0%, #6E6E6E80 100%) 0% 0% no-repeat padding-box;
+    border: solid 10px #EAEAEAEA;
+    border-radius: 10px;
+    /* background-color: var(--color-image-overlay); */
+    opacity: var(--opacity-image-overlay);
+}
+  
