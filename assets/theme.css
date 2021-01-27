@@ -6475,14 +6475,24 @@ hr {
       flex: 0 0 auto;
       padding-left: 22px;
       margin-bottom: 22px; }
-      .custom__item.small--one-half {
+      .custom__item--image.small--one-half {
         -webkit-flex: 1 0 50%;
         -moz-flex: 1 0 50%;
         -ms-flex: 1 0 50%;
-        flex: 1 0 50%;
+        flex: 1 0 100%;
         max-width: 400px;
         margin-left: auto;
-        margin-right: auto; } }
+        margin-right: auto; } 
+      .custom__item--text.small--one-half {
+        -webkit-flex: 1 0 50%;
+        -moz-flex: 1 0 50%;
+        -ms-flex: 1 0 50%;
+        flex: 0 1 100%;
+        max-width: 400px;
+        margin-left: 22px;
+        margin-right: auto; } 
+      
+      }
   .custom__item .collection-grid-item {
     margin-bottom: 0; }
 
