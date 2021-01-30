@@ -1084,10 +1084,8 @@ textarea {
 
 .main-content .shopify-section:nth-child(2) {
   max-width: 920px;
-/*   border: solid 5px #E5E5E5; */
   margin: 0 auto;
-/*   background-color: #B7B7B7;
-  padding: 36px 0; */
+  font-family: serif;
 }
 
 .main-content .shopify-section:nth-child(2) h2 {
@@ -1105,11 +1103,7 @@ textarea {
 
 .main-content .shopify-section:nth-child(3) {
   padding-bottom: 0;
-}
-
-.main-content .shopify-section:nth-child(4) {
   padding-top: 0;
-  margin-top: 25px;
 }
 
 .main-content .shopify-section:nth-child(4) h4 {
@@ -1133,7 +1127,7 @@ textarea {
 }
 
 .main-content .shopify-section:nth-child(3) .collection-grid-item__title {
-  font: normal normal bold 20px/26px Tsukushi A Round Gothic;
+  font-family: serif;
 }
 
 @media only screen and (max-width: 900px) {
@@ -1146,9 +1140,10 @@ textarea {
 }}
 
 .main-content .shopify-section:nth-child(5) {
-  margin: 10px -10px;	/* 外側の余白 上下・左右 */
+  margin: 10px -10px;	
   position: relative;
   z-index: 0;
+  font-family: serif;
 }
 
 .main-content .shopify-section:nth-child(5) h2{
@@ -1186,6 +1181,7 @@ textarea {
     padding: 30px;
     border: solid 2px #EAEAEA;
     position: relative;
+    font-family: serif;
 }
 
 .main-content .shopify-section:nth-child(6) .page-width:before {
@@ -5672,6 +5668,7 @@ hr {
 
 .site-footer {
   margin-top: 55px;
+  font-family: serif;
   padding: 45px 0 55px 0; }
   @media only screen and (min-width: 750px) {
     .site-footer {
