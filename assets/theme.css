@@ -1096,11 +1096,6 @@ textarea {
   padding-bottom: 5px; */
 }
 
-.main-content .shopify-section:nth-child(2) p {
-  color: #FFFFFF;
-    text-shadow: 1px 2px 2px #000000;
-}
-
 .main-content .shopify-section:nth-child(3) {
   padding-bottom: 0;
   padding-top: 0;
@@ -3306,7 +3301,9 @@ hr {
   transform: translateY(-50%); }
   @media only screen and (min-width: 750px) {
     .collection-hero__title {
-      font-size: calc(((var(--font-size-header) + 6) / (var(--font-size-base))) * 1em); } }
+      font-size: calc(((var(--font-size-header) + 6) / (var(--font-size-base))) * 1em); 
+       font-family: serif;
+      } }
 
 .template-blog .social-sharing {
   margin-bottom: 17.5px; }
@@ -5669,6 +5666,7 @@ hr {
 .site-footer {
   margin-top: 55px;
   font-family: serif;
+  font-weight: bold;
   padding: 45px 0 55px 0; }
   @media only screen and (min-width: 750px) {
     .site-footer {
@@ -5677,6 +5675,7 @@ hr {
     margin-bottom: 12.5px; }
     @media only screen and (min-width: 750px) {
       .site-footer h4, .site-footer .h4 {
+        font-family: serif;
         min-height: calc(var(--font-size-header) * 0.7);
         margin-bottom: 25px; } }
 
@@ -6610,7 +6609,7 @@ hr {
 .product-card__title {
   border-bottom: 1px solid transparent;
   display: inline;
-  font-family: var(--font-stack-header);
+  font-family: serif;
   font-style: var(--font-style-header);
   font-weight: var(--font-weight-header); }
 
@@ -7143,28 +7142,11 @@ hr {
   font-family: "Georgia","游明朝", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3";
 }
 
-.image-text {
+/* .image-text {
   background-image: url(https://cdn.shopify.com/s/files/1/0526/6522/1290/files/I-DA_1_1080x.jpg?v=1611068975);
   background-size: cover;
-}
+} */
 
-.image-text img{
-  display: none;
-}
-
-.image-text::before {
-  content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: transparent linear-gradient(180deg, #EAEAEA00 0%, #6E6E6E80 100%) 0% 0% no-repeat padding-box;
-    border: solid 10px #EAEAEAEA;
-    border-radius: 10px;
-    /* background-color: var(--color-image-overlay); */
-    opacity: var(--opacity-image-overlay);
-}
 
 #FeatureRowImageWrapper-1611067995cdbcc771{
   padding: 10px;

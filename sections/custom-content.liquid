@@ -1,4 +1,4 @@
-{{ custom-theme.js’ | asset_url | script_tag }}
+<script src="{{ 'custom-theme.js' | asset_url }}" async="async"></script>
 
 <div class="page-width">
   {% if section.settings.title != blank %}

@@ -1,5 +1,6 @@
 {
   "current": {
+    "favicon": "shopify:\/\/shop_images\/logo.png",
     "sections": {
       "header": {
         "type": "header",
@@ -167,16 +168,16 @@
       "16101059860d0f8ca1": {
         "type": "collection-list",
         "blocks": {
-          "16101059860d0f8ca1-0": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "和菓子"
-            }
-          },
           "16101059860d0f8ca1-1": {
             "type": "featured_collection",
             "settings": {
               "collection": "洋菓子"
+            }
+          },
+          "16101059860d0f8ca1-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "和菓子"
             }
           },
           "16101059860d0f8ca1-2": {
@@ -191,6 +192,12 @@
               "collection": "食品"
             }
           },
+          "8dd6b1be-7901-42ef-b658-4627960e2d99": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "しきたり品-和タイプ"
+            }
+          },
           "90d60e7f-b7dc-4127-b1e1-42ae43b3c0f3": {
             "type": "featured_collection",
             "settings": {
@@ -199,10 +206,11 @@
           }
         },
         "block_order": [
-          "16101059860d0f8ca1-0",
           "16101059860d0f8ca1-1",
+          "16101059860d0f8ca1-0",
           "16101059860d0f8ca1-2",
           "1dc80d79-d5bf-485c-8edf-08068ff4c736",
+          "8dd6b1be-7901-42ef-b658-4627960e2d99",
           "90d60e7f-b7dc-4127-b1e1-42ae43b3c0f3"
         ],
         "settings": {
@@ -277,21 +285,10 @@
           "title": "NEWS"
         }
       },
-      "16109019773884b465": {
-        "type": "rich-text",
-        "disabled": true,
-        "settings": {
-          "full_width": false,
-          "section_title": "CONCEPT",
-          "text": "<p>たくさんの祝が降りますようにという意味のSuqfourシュクフール®<\/p><p>お世話になった方へ感謝の気持ちを伝えられるよう、想いをかたちにできるウェディングギフトをご用意いたしました。<\/p>",
-          "text_size": "large"
-        }
-      },
       "1611067995cdbcc771": {
         "type": "feature-row",
         "disabled": true,
         "settings": {
-          "image": "shopify:\/\/shop_images\/I-DA_1.jpg",
           "layout": "left",
           "title": "&irori",
           "text": "<p>従来の引き出物の概念にとらわれず、もっと自由なウェディングギフトをという思いで生まれた、＆irori®おうちで過ごすことが多くなった今、グルメとお菓子で、感謝の気持ちを伝えてみませんか？<\/p>",
@@ -301,11 +298,12 @@
       },
       "1611246569e0d02437": {
         "type": "hero",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/655d822ebd397cf034722aa7ff25e4c7.png",
           "alignment": "center",
           "hero_layout": "full_width",
-          "hero_size": "x-small",
+          "hero_size": "medium",
           "text_size": "medium",
           "title": "",
           "text": "<p><strong>ＳＵＱＦＯＵＲシュクフールは、たくさんの祝が降りそそぎますようにという思いを込めました。<\/strong><\/p>",
@@ -331,7 +329,7 @@
           "16112562982c197b22-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/and_irori_1211.png",
+              "image": "shopify:\/\/shop_images\/and_irori_1211.jpg",
               "width": "50%",
               "alignment": "center"
             }
@@ -340,7 +338,7 @@
             "type": "text",
             "settings": {
               "title": "",
-              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "text": "<p>家族と食べる 仲間と食べる 誰かと食べる 日常の尊さを おもう<\/p><p>ゆっくり くつろいで ほっとする お家ごはん<\/p><p>かこむ という しあわせ <\/p><p>&amp;irori<\/p>",
               "width": "50%",
               "alignment": "center",
               "align_text": "left"
@@ -365,11 +363,21 @@
           "button_label": "aaaaaaa",
           "button_link": "shopify:\/\/collections\/irori"
         }
+      },
+      "16121775312b6adbdf": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/custom_resized_358c2b3c-cc66-4096-a3d2-17538158a29f.jpg",
+          "layout": "right",
+          "title": "",
+          "text": "<p><strong>ＳＵＱＦＯＵＲシュクフールは、<\/strong><\/p><p><strong>たくさんの祝が降りそそぎますように<\/strong><\/p><p><strong>という思いを込めました。<\/strong><\/p><p><strong>個性あふれるウェディングギフトが<\/strong><\/p><p><strong>感謝の気持ちを届けます。　<\/strong><\/p>",
+          "button_label": ""
+        }
       }
     },
     "content_for_index": [
       "hero-1",
-      "16109019773884b465",
+      "16121775312b6adbdf",
       "1611246569e0d02437",
       "16101059860d0f8ca1",
       "16112562982c197b22",
