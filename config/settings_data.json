@@ -300,7 +300,6 @@
         "type": "hero",
         "disabled": true,
         "settings": {
-          "image": "shopify:\/\/shop_images\/655d822ebd397cf034722aa7ff25e4c7.png",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "medium",
@@ -338,7 +337,7 @@
             "type": "text",
             "settings": {
               "title": "",
-              "text": "<p>家族と食べる 仲間と食べる 誰かと食べる 日常の尊さを おもう<\/p><p>ゆっくり くつろいで ほっとする お家ごはん<\/p><p>かこむ という しあわせ <\/p><p>&amp;irori<\/p>",
+              "text": "<p>　　家族と 食べる 仲間と 食べる<\/p><p>　　　　だれかと 食べる <\/p><p>　　　　　　日常の尊さをおもう<\/p><p>　　ゆっくり くつろいで <\/p><p>　　　　　　ほっとする お家ごはん<\/p><p>　　かこむ という しあわせ <\/p><p>　　　　　　　　　　　　&amp;irori<strong>®︎<\/strong><\/p>",
               "width": "50%",
               "alignment": "center",
               "align_text": "left"
