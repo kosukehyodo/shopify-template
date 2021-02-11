@@ -82,13 +82,15 @@
                     <label class="filters-toolbar__label select-label" for="FilterTags">{{ 'collections.filters.title_tags' | t }}</label>
                     <div class="filters-toolbar__input-wrapper select-group">
                       <select class="filters-toolbar__input hidden" name="FilterTags" id="FilterTags" aria-describedby="a11y-refresh-page-message a11y-selection-message" data-select-input>
-                        <option value="{{ collection.url }}">{{ 'collections.filters.all_tags' | t }}</option>
+                        <option value="{{ collections['all'].url }}">全ての商品</option>
 <!--                         {% for tag in collection.all_tags %}
                           {%- assign new_url = tag | link_to_tag: tag | split: 'href="' | last | split: '"' | first -%}
                           <option value="{{ new_url }}"{% if current_tags contains tag %} selected="selected"{% endif %}>{{ tag }}</option>
                         {% endfor %} -->
                         {% for collect in collections %}
-                          <option value="{{ collect.url }}"{% if collection.title contains collect.title %} selected="selected"{% endif %}>{{ collect.title }}</option>
+                          {% if collect.title != '全ての商品' %}
+                            <option value="{{ collect.url }}"{% if collection.title contains collect.title %} selected="selected"{% endif %}>{{ collect.title }}</option>
+                          {% endif %}
                         {% endfor %}
                       </select>
                       {% include 'icon-chevron-down' %}

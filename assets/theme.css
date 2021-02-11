@@ -1085,15 +1085,6 @@ textarea {
 .main-content .shopify-section:nth-child(2) {
   max-width: 920px;
   margin: 0 auto;
-  font-family: serif;
-}
-
-.main-content .shopify-section:nth-child(2) h2 {
-/*   display: inline-block;
-  color: #FFFFFF;
-  margin-bottom: 40px;
-  border-bottom: solid 5px #F1FE46;
-  padding-bottom: 5px; */
 }
 
 .main-content .shopify-section:nth-child(3) {

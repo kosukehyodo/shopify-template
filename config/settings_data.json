@@ -6,7 +6,7 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo": "shopify:\/\/shop_images\/logo_suqfour.png",
           "logo_max_width": 65,
           "main_linklist": "main-menu",
           "message": false,
@@ -19,7 +19,7 @@
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/custom_resized_46e864b1-6506-4dbe-8742-26fb15e286b4.jpg",
+          "image": "shopify:\/\/shop_images\/custom_resized_6b44a06c-118c-4bd2-9326-9f28977f7167.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "large",
@@ -229,19 +229,6 @@
           "show_view_all": false
         }
       },
-      "161010911198bd2b52": {
-        "type": "hero",
-        "disabled": true,
-        "settings": {
-          "alignment": "center",
-          "hero_layout": "fixed_width",
-          "hero_size": "small",
-          "text_size": "medium",
-          "title": "&irori",
-          "text": "<p>宅配ギフトです。説明。説明。説明。説明。説明。<\/p>",
-          "button_label": ""
-        }
-      },
       "1610120893ed24ba8e": {
         "type": "custom-content",
         "blocks": {
@@ -285,82 +272,32 @@
           "title": "NEWS"
         }
       },
-      "1611067995cdbcc771": {
-        "type": "feature-row",
-        "disabled": true,
-        "settings": {
-          "layout": "left",
-          "title": "&irori",
-          "text": "<p>従来の引き出物の概念にとらわれず、もっと自由なウェディングギフトをという思いで生まれた、＆irori®おうちで過ごすことが多くなった今、グルメとお菓子で、感謝の気持ちを伝えてみませんか？<\/p>",
-          "button_label": "商品一覧へ",
-          "button_link": "shopify:\/\/collections\/irori"
-        }
-      },
-      "1611246569e0d02437": {
-        "type": "hero",
-        "disabled": true,
-        "settings": {
-          "alignment": "center",
-          "hero_layout": "full_width",
-          "hero_size": "medium",
-          "text_size": "medium",
-          "title": "",
-          "text": "<p><strong>ＳＵＱＦＯＵＲシュクフールは、たくさんの祝が降りそそぎますようにという思いを込めました。<\/strong><\/p>",
-          "button_label": ""
-        }
-      },
-      "161124764508555951": {
-        "type": "hero",
-        "disabled": true,
-        "settings": {
-          "alignment": "center",
-          "hero_layout": "full_width",
-          "hero_size": "medium",
-          "text_size": "medium",
-          "title": "Image with text overlay",
-          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-          "button_label": ""
-        }
-      },
       "16112562982c197b22": {
         "type": "custom-content",
         "blocks": {
           "16112562982c197b22-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/and_irori_1211.jpg",
+              "image": "shopify:\/\/shop_images\/and_irori_logo_1.jpg",
               "width": "50%",
               "alignment": "center"
             }
           },
-          "16112562982c197b22-0": {
-            "type": "text",
+          "accf235c-73e6-4609-80d3-88e3eb5f26e7": {
+            "type": "image",
             "settings": {
-              "title": "",
-              "text": "<p>　　家族と 食べる 仲間と 食べる<\/p><p>　　　　だれかと 食べる <\/p><p>　　　　　　日常の尊さをおもう<\/p><p>　　ゆっくり くつろいで <\/p><p>　　　　　　ほっとする お家ごはん<\/p><p>　　かこむ という しあわせ <\/p><p>　　　　　　　　　　　　&amp;irori<strong>®︎<\/strong><\/p>",
+              "image": "shopify:\/\/shop_images\/irori_9e8c6dee-7442-49fa-a025-8ae302689a64.jpg",
               "width": "50%",
-              "alignment": "center",
-              "align_text": "left"
+              "alignment": "center"
             }
           }
         },
         "block_order": [
           "16112562982c197b22-1",
-          "16112562982c197b22-0"
+          "accf235c-73e6-4609-80d3-88e3eb5f26e7"
         ],
         "settings": {
           "title": "NEW ARRIVALS"
-        }
-      },
-      "1611508269a8302efd": {
-        "type": "feature-row",
-        "disabled": true,
-        "settings": {
-          "layout": "left",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": "aaaaaaa",
-          "button_link": "shopify:\/\/collections\/irori"
         }
       },
       "16121775312b6adbdf": {
@@ -372,20 +309,47 @@
           "text": "<p><strong>ＳＵＱＦＯＵＲシュクフールは、<\/strong><\/p><p><strong>たくさんの祝が降りそそぎますように<\/strong><\/p><p><strong>という思いを込めました。<\/strong><\/p><p><strong>個性あふれるウェディングギフトが<\/strong><\/p><p><strong>感謝の気持ちを届けます。　<\/strong><\/p>",
           "button_label": ""
         }
+      },
+      "161277820227cb9b43": {
+        "type": "custom-content",
+        "disabled": true,
+        "blocks": {
+          "161277820227cb9b43-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/and_irori_logo_1.jpg",
+              "width": "50%",
+              "alignment": "center"
+            }
+          },
+          "161277820227cb9b43-0": {
+            "type": "text",
+            "settings": {
+              "title": "Talk about your brand",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          }
+        },
+        "block_order": [
+          "161277820227cb9b43-1",
+          "161277820227cb9b43-0"
+        ],
+        "settings": {
+          "title": "NEW ARRIVALS"
+        }
       }
     },
     "content_for_index": [
       "hero-1",
       "16121775312b6adbdf",
-      "1611246569e0d02437",
       "16101059860d0f8ca1",
+      "161277820227cb9b43",
       "16112562982c197b22",
-      "161124764508555951",
-      "1611067995cdbcc771",
-      "161010911198bd2b52",
       "161010784165a4e59b",
-      "1610120893ed24ba8e",
-      "1611508269a8302efd"
+      "1610120893ed24ba8e"
     ]
   },
   "presets": {
