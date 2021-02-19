@@ -16,20 +16,21 @@
         {% form 'contact', id: formId %}
           {% include 'form-status', form: form, form_id: formId %}
 
+
           <div class="grid grid--half-gutters">
             <div class="grid__item medium-up--one-half">
-              <label for="{{ formId }}-name">{{ 'contact.form.name' | t }}</label>
-              <input type="text" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
+              <label for="{{ formId }}-name">お名前<span aria-hidden="true">*</span></label>
+              <input type="text" id="{{ formId }}-name" name="contact[{お名前]" required value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
             </div>
             <div class="grid__item medium-up--one-half">
-              <label for="{{ formId }}-email">{{ 'contact.form.email' | t }} <span aria-hidden="true">*</span></label>
+              <label for="{{ formId }}-email">メールアドレス<span aria-hidden="true">*</span></label>
               <input
                 type="email"
                 id="{{ formId }}-email"
-                name="contact[email]"
+                name="contact[メールアドレス]"
                 autocorrect="off"
                 autocapitalize="off"
-                value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                required value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
                 aria-required="true"
                 {%- if form.errors contains 'email' -%}
                   class="input--error"
@@ -47,12 +48,31 @@
             </div>
           </div>
 
-          <label for="{{ formId }}-phone">{{ 'contact.form.phone' | t }}</label>
-          <input type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+          <label for="{{ formId }}-phone">電話番号<span aria-hidden="true">*</span></label>
+          <input type="tel" id="{{ formId }}-phone" name="contact[電話番号]" pattern="[0-9\-]*"required value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
 
-          <label for="{{ formId }}-message">{{ 'contact.form.message' | t }}</label>
-          <textarea rows="10" id="{{ formId }}-message" name="contact[{{ 'contact.form.message' | t }}]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+    
+          <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+          <!-- ▼郵便番号入力フィールド(7桁) -->
+          <label for="yu-binnum">郵便番号(任意)</label>       
+          <input type="text" name="zip11" id="yu-binnum" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','addr11','addr11');">
+          <!-- ▼住所入力フィールド(都道府県+以降の住所) -->
+          <label for="text">住所(任意)</label>
+          <input type="text" name="addr11" id="text" size="60">
+                
+          <label for="num">注文番号(任意)</label>
+          <input
+            type="text"
+            id="num"
+            name="contact[注文番号]"
+            placeholder=""
+          />    
+        
+          <label for="{{ formId }}-message">お問い合わせ詳細<span aria-hidden="true">*</span></label>
+          <textarea required rows="10" id="{{ formId }}-message" name="contact[お問い合わせ詳細]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
 
+          <p>メールでのご返信を基本としておりますが、内容によってはお電話にてご連絡させていただく場合もございます。<br>あらかじめご了承くださいませ。</p>   
+       
           <input type="submit" class="btn" value="{{ 'contact.form.submit' | t }}">
 
         {% endform %}

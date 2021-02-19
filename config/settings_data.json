@@ -1,5 +1,7 @@
 {
   "current": {
+    "type_header_font": "ff_meta_serif_n7",
+    "type_base_font": "serif",
     "favicon": "shopify:\/\/shop_images\/logo.png",
     "sections": {
       "header": {
@@ -241,32 +243,10 @@
               "alignment": "center",
               "align_text": "center"
             }
-          },
-          "6d9d8f90-db20-4cae-b5b9-d1b6e808b652": {
-            "type": "text",
-            "settings": {
-              "title": "",
-              "text": "<p><strong>2021\/1\/15<\/strong><\/p><p><a href=\"https:\/\/suqfour.myshopify.com\/blogs\/news\/news1\" title=\"NEWS1\"> <\/a><a href=\"\/blogs\/news\" title=\"News\">ダミー商品、&amp;iori販売しました。<\/a><\/p>",
-              "width": "100%",
-              "alignment": "center",
-              "align_text": "center"
-            }
-          },
-          "2b687259-43e2-4afb-a0c6-fd02d8699aef": {
-            "type": "text",
-            "settings": {
-              "title": "",
-              "text": "<p><strong>2021\/1\/23 <\/strong><\/p><p><a href=\"\/blogs\/news\" title=\"News\">ダミー商品、&amp;iori販売しました。<\/a><\/p>",
-              "width": "100%",
-              "alignment": "center",
-              "align_text": "center"
-            }
           }
         },
         "block_order": [
-          "31b02c79-274c-46df-89cb-da39ebed51d9",
-          "6d9d8f90-db20-4cae-b5b9-d1b6e808b652",
-          "2b687259-43e2-4afb-a0c6-fd02d8699aef"
+          "31b02c79-274c-46df-89cb-da39ebed51d9"
         ],
         "settings": {
           "title": "NEWS"
@@ -286,7 +266,7 @@
           "accf235c-73e6-4609-80d3-88e3eb5f26e7": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/irori_9e8c6dee-7442-49fa-a025-8ae302689a64.jpg",
+              "image": "shopify:\/\/shop_images\/irori_360fea4c-447a-4321-82ce-448ddc038cc5.jpg",
               "width": "50%",
               "alignment": "center"
             }
